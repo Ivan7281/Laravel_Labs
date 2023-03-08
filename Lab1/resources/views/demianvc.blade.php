@@ -10,7 +10,7 @@
 <body>
 <h1>Резюме</h1>
 <div>
-    <h2>Дем'ян Іван</h2>
+    <h2>Дем'ян</h2>
     <hr>
     <h2>Junior Laravel Developer</h2>
     <hr>

@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/demian/cv', function () {
-    return view('demianvc');
-});
+Route::get('/demian/cv', [\App\Http\Controllers\ResumeController::class, 'index'])->name('demian');
